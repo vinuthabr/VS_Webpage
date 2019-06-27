@@ -86,8 +86,31 @@ div.desc {
   text-align: center;
 }
 
-.footer {
-  background-color: #bd276d;
-  padding: 0.5px;
+
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 15px;
   text-align: center;
+}
+
+table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: #111010;
+  color: #fff;
+}
+.basictext {
+  padding-right: 6px;
 }
